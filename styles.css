@@ -33,7 +33,10 @@ body{
 .data > span{
     margin-bottom: 28px;
     color: var(--darkGray);
-    
+}
+.data_details1{
+    margin-bottom: 28px;
+    color: var(--darkGray);
 }
 .image-profile{
     border-radius: 50%;
@@ -65,7 +68,7 @@ footer{
     display: flex;
     align-content: center;
     justify-content: space-around;
-    height: 80;
+    height: 80px;
     border-top: 2px var(--darkGray);
     background-color: white;
 }
