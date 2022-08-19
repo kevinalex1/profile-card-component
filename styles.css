@@ -32,7 +32,7 @@ body{
 }
 .data > span{
     margin-bottom: 28px;
-    color: var(--darkGray);
+    color: black;
 }
 .data_details1{
     margin-bottom: 28px;
@@ -42,7 +42,7 @@ body{
     border-radius: 50%;
     height: 100px;
     overflow: hidden;
-    border: 2px white;
+    border-color: 100px white;
     margin-bottom: 28px;
     position: absolute;
     top: -50px;
@@ -53,6 +53,7 @@ body{
 .data_details {
     margin-bottom: 16px;
     margin-top: 70px;
+    
 }
 .data_details span:nth-child(1){
     font-weight: 700;
