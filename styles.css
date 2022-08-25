@@ -44,14 +44,13 @@ body{
 .image-profile{
     border-radius: 50%;
     height: 100px;
-    overflow: hidden;
-    border-color: 100px white;
     margin-bottom: 28px;
     position: absolute;
     top: -50px;
+    border:5px solid white;
 }
 .image-profile img{
-    height: 100%;
+    border-radius: 50%;
 }
 .data_details {
     margin-bottom: 16px;
@@ -73,7 +72,7 @@ footer{
     align-content: center;
     justify-content: space-around;
     height: 80px;
-    border-top: 2px var(--darkGray);
+    border-top: 0.5px solid var(--darkGray);
     background-color: white;
 }
 footer div {
