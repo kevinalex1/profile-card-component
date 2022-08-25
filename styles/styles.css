@@ -1,0 +1,91 @@
+:root {
+    --DarkCyan:  hsl(185,75%,39%);
+    --veryDarkDesatured: blue: hsl(185,75%,39%);
+    --DarkGrayishBlue: hsl(185,75%,39%);
+    --darkGray: hsl(0,0%,39%);
+    --fontSize: 18px
+}
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    background-color:#0F96B0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:url(../profile-card-component-main/images/bg-pattern-top.svg),url(../profile-card-component-main/images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 51vw bottom 20vh, left 45vw top 45vh;
+}
+.conteiner{
+    width: 85%;
+    margin: 100px auto;
+    border-radius: 15px;
+    overflow: hidden;
+    
+}
+.background{
+    height: 200px;
+    background-image: url(../profile-card-component-main/images/bg-pattern-card.svg);
+}
+.data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-color: white;
+}
+.data > span{
+    margin-bottom: 28px;
+    color: black;
+}
+.data_details1{
+    margin-bottom: 28px;
+    color: var(--darkGray);
+}
+.image-profile{
+    border-radius: 50%;
+    height: 100px;
+    margin-bottom: 28px;
+    position: absolute;
+    top: -50px;
+    border:5px solid white;
+}
+.image-profile img{
+    border-radius: 50%;
+}
+.data_details {
+    margin-bottom: 16px;
+    margin-top: 70px;
+    
+}
+.data_details span:nth-child(1){
+    font-weight: 700;
+    color: var(--darkGray);
+    font-size: var(--fontSize);
+}
+.data_details span:nth-child(2){
+    font-weight: 700;
+    color: var(--darkGray);
+    font-size: var(--fontSize);
+}
+footer{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    height: 80px;
+    border-top: 0.5px solid var(--darkGray);
+    background-color: white;
+}
+footer div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.letters{
+    font-weight: 700;
+    color:var(--darkGray)
+}
+.subtitle{
+    font-weight: 700;
+    font-size: var(--fontSize);
+}
